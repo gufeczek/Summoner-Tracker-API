@@ -1,0 +1,18 @@
+insert:
+INSERT INTO summonerEntity(id, summoner_name, summoner_level, profile_icon_id, revision_date)
+VALUES ?;
+
+select:
+SELECT *
+FROM summonerEntity
+WHERE summoner_name = :summonerName;
+
+update:
+UPDATE summonerEntity
+SET
+    summoner_name = :summoner_name,
+    summoner_level = :summoner_level,
+    profile_icon_id = :profile_icon_id,
+    revision_date = :revision_date
+WHERE id = :id;
+

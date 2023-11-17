@@ -1,0 +1,23 @@
+# Compiled output
+/out/
+/build/
+/bin/
+/buildSrc/build/
+/*.class
+/*.jar
+/*.war
+/*.ear
+
+# IDE/Editor files
+.idea/
+.gradle/
+*.iml
+*.ipr
+*.iws
+
+# OS generated files
+.DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp

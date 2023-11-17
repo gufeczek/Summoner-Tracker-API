@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS summonerEntity (
+  id VARCHAR(63) PRIMARY KEY NOT NULL,
+  summoner_name VARCHAR(16) NOT NULL,
+  summoner_level INT NOT NULL,
+  profile_icon_id INT NOT NULL,
+  revision_date BIGINT NOT NULL
+);
